@@ -1,0 +1,224 @@
+.footer {
+  background-color: #2f303a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+
+.footer__left {
+  //margin-right: 70px;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+.address__list {
+  align-items: center;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.adress__paragraf,
+.address__mail,
+.address__phone {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.adress__paragraf {
+  color: #ffffff;
+  margin-bottom: 9px;
+}
+.address__mail {
+  margin-bottom: 9px;
+}
+.address__mail,
+.address__phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 570px;
+}
+.footer__headline_nws {
+  display: block;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.signUp {
+  height: 50px;
+  width: 200px;
+  border-radius: 4px;
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  margin-bottom: 20px;
+}
+.signUp__label {
+  color: #ffffff;
+  background-color: transparent;
+  border: hidden;
+  margin-right: 24px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin-left: 24px;
+}
+.newsletter__input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: #2f303a;
+  border-radius: 4px;
+  margin-left: 70px;
+  margin-right: 12px;
+  margin-bottom: 20px;
+  outline: none;
+  padding-left: 20px;
+  color: #ffffff;
+
+  &:hover,
+  &:focus {
+    border: 1px solid #2196f3;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+
+  // DESKTOP 
+
+  @media screen  and (min-width: 1200px) {
+   
+    .footer__left {
+      margin-right: 70px;
+    }
+  }
+
+.footer{
+  display: flex;
+  .container{
+  
+    flex-wrap: wrap;
+    
+  
+  }
+}
+
+
+// TABLET 
+@media screen  and (min-width: 768px) and (max-width: 1199px) {
+  .footer__left{
+    width: 40%;
+  }
+  .footer__right{
+    width: 40%;
+  }
+ 
+  
+
+  
+}
+
+// MOBILE
+
+@media screen and (max-width: 767px) {
+  .footer__left {
+    margin-right: 0px;
+  }
+.footer{
+  .container{
+    flex-direction: column;
+  }
+}
+.footer__headline_nws{
+  margin-left: 0px;
+}
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+}
+
+.footer__headline_nws{
+  margin-left: 0px;
+}
+.footer__headline_nws{
+  margin-right: 0px;
+}
+
+
+
+.footer .container {
+  width: 480px;
+  min-height: 603px;
+  background-color: #2f303a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.footer__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__right {
+  text-align: center;
+
+}
+
+.address__list{
+  display: flex;
+  flex-direction: column;
+  
+
+  }
+footer{
+  .logo{
+    margin-right: 0;
+  }
+  
+  
+}
+
+.footer{
+  form {
+    width: 100%;
+  }
+  
+
+}
+
+.newsletter__input{
+  margin-left: 0;
+}
+
+
+
+}
+
+
+

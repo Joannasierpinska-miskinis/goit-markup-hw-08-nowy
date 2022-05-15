@@ -1,0 +1,44 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #2196f3;
+}
+
+body {
+  font-family: var(--main-font);
+  color: #212121;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+.link {
+  list-style: none;
+}
+
+.menu__link,
+.header__phone,
+.header__mail,
+.address__mail,
+.address__phone {
+  text-decoration: none;
+}
